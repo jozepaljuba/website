@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<audio controls>
+		<source src="funciona.mp3" type="audio/mp3" autoplay loop>
+			
+	</audio>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Game of Thrones</title>
+		<meta name="description" content="An experimental slideshow with an inclined look with three slide previews and a content view on click." />
+		<meta name="keywords" content="slideshow, javascript, tweenmax, rotation, animation, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+
+
+		<main>
+	
+			<div class="content">
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url( img/martell1.jpeg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">House Martell</span>
+						<h2 class="content__item-header-title">Oberyn Martell</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							La Casa Nymeros Martell de Lanza del Sol es la casa gobernante de Dorne. 
+							La palabra Nymeros significa de la línea de Nymeria, aunque generalmente es llamada sólo Casa Martell. Su asentamiento es el Palacio Antiguo, ubicado en Lanza del Sol. 
+							Su emblema es un sol de gules atravesado por una lanza de oro sobre fondo naranja.
+							Su lema es Nunca Doblegado, Nunca Roto.
+							
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/stark1.jpeg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">House Stark</span>
+						<h2 class="content__item-header-title">Arya Stark</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							La Casa Stark de Invernalia es una casa noble del Norte. 
+							Su asentamiento es Invernalia. Durante siglos, fue la casa principal del Norte y su linaje 
+							se extiende hasta los Primeros Hombres, gobernando el Norte como reyes por derecho propio. 
+							Su emblema es un lobo huargo de cenizo corriendo sobre campo de plata. 
+							Su lema es Se acerca el Invierno. Su mandoble ancestral de acero valyrio se llamaba Hielo.
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Margaery.jpeg);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">House Tyrell</span>
+						<h2 class="content__item-header-title">Margaery Tyrell</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							La Casa Tyrell de Altojardín es la casa gobernante del Dominio. 
+							Su asentamiento es Altojardín. 
+							Su emblema es una rosa en oro sobre campo de sinople. 
+							Su lema es Crecer Fuerte.
+							
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+				<article class="content__item">
+					<div class="img-wrap img-wrap--content">
+						<div class="img img--content" style="background-image: url(img/Theon.png);"></div>
+					</div>
+					<header class="content__item-header">
+						<span class="content__item-header-meta">House Greyjoy</span>
+						<h2 class="content__item-header-title">Theon Greyjoy</h2>
+					</header>
+					<div class="content__item-copy">
+						<p class="content__item-copy-text">
+							La Casa Greyjoy de Pyke es una de las grandes casas de Poniente. 
+							Es la principal casa de las Islas del Hierro, un conjunto de islas desoladas en la costa oeste
+							 de Poniente. Su asentamiento es Pyke, un castillo situado en la isla del mismo nombre. 
+							Su emblema es un kraken de oro sobre campo de sable.
+							 Su lema es Nosotros no sembramos.
+							
+						</p>
+						<a href="#" class="content__item-copy-more">more +</a>
+					</div>
+				</article>
+			</div>
+			<div class="revealer">
+				<div class="revealer__inner"></div>
+			</div>
+			<div class="grid grid--slideshow">
+				<figure class="grid__item grid__item--slide">
+					<span class="number">House 1</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/casa1.jpeg);"></div>
+					</div>
+					<figcaption class="caption">House Martell</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">House 2</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/casa5.jpeg);"></div>
+					</div>
+					<figcaption class="caption">House Stark</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">House 3</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/casa3.jpeg);"></div>
+					</div>
+					<figcaption class="caption">House Tyrell</figcaption>
+				</figure>
+				<figure class="grid__item grid__item--slide">
+					<span class="number">House 4</span>
+					<div class="img-wrap">
+						<div class="img" style="background-image: url(img/casa4.jpeg);"></div>
+					</div>
+					<figcaption class="caption">House Greyjoy</figcaption>
+				</figure>
+				<div class="titles-wrap">
+					<div class="grid grid--titles">
+						<h3 class="grid__item grid__item--title">Winter</h3>
+						<h3 class="grid__item grid__item--title">is</h3>
+						<h3 class="grid__item grid__item--title">Coming</h3>
+						<h3 class="grid__item grid__item--title">GOT</h3>
+					</div>
+				</div>
+				<div class="grid grid--interaction">
+					<div class="grid__item grid__item--cursor grid__item--left"></div>
+					<div class="grid__item grid__item--cursor grid__item--center"></div>
+					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				</div>
+			</div>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Crossroads Slideshow</h1>
+					<div class="frame__links">
+						<a href="https://tympanus.net/Development/ExplodingObjects/">Previous Demo</a>
+						<a href="https://tympanus.net/codrops/?p=39863">Article</a>
+						<a href="https://github.com/codrops/CrossroadsSlideshow/">GitHub</a>
+					</div>
+					<div class="frame__mode" role="radiogroup">
+						<div class="frame__mode-item frame__mode-item--dark">
+							<input id="mode-1" type="radio" name="mode" class="frame__mode-input"></input>
+							<label class="frame__mode-label" for="mode-1">Dark mode</label>
+						</div>
+						<div class="frame__mode-item">
+							<input id="mode-2" type="radio" name="mode" class="frame__mode-input" checked></input>
+							<label class="frame__mode-label frame__mode-label--light" for="mode-2">Light mode</label>
+						</div>
+					</div>
+				</div>
+			</div><!-- /frame -->
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
